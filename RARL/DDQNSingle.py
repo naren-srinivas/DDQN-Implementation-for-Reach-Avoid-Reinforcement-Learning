@@ -1,4 +1,5 @@
 """
+Implementing
     - a' = argmin_a' Q_network(s', a')
     - V(s') = Q_target(s', a')
     - V(s) = gamma ( max{ g(s), min{ l(s), V(s') } }

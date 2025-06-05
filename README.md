@@ -157,10 +157,4 @@ pip install -e gym_reachability/
 This implementation is based on the paper that introduces DRABE for reach-avoid problems. The key insight is that traditional discounted cost formulations don't directly address the reach-avoid objective, leading to suboptimal policies in safety-critical scenarios.
 
 
-
-For questions or issues, please contact the authors:
-- Kai-Chieh Hsu (kaichieh@princeton.edu)
-
----
-
 This implementation provides a solid foundation for research in safe reinforcement learning and reach-avoid control problems.

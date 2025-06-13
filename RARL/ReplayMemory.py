@@ -1,11 +1,3 @@
-"""
-This file is based on Adam Paszke's implementation of Replay Memory,
-available at:
-
-https://pytorch.org/tutorials/intermediate/reinforcement_q_learning.html
-
-"""
-
 import numpy as np
 
 

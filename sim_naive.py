@@ -1,20 +1,6 @@
 """
-Please contact the author(s) of this library if you have any questions.
-Authors: Kai-Chieh Hsu ( kaichieh@princeton.edu )
-
-This experiment runs double deep Q-network with the discounted reach-avoid
-Bellman equation (DRABE) proposed in [RSS21] on a 2-dimensional point mass
-problem. We use this script to generate Fig. 2 and Fig. 3 in the paper.
-
-Examples:
-    RA:
-        python3 sim_naive.py -w -sf -of scratch -a -g 0.99 -n anneal
-        python3 sim_naive.py -w -sf -of scratch -n 9999
-        python3 sim_naive.py -w -sf -of scratch -g 0.999 -dt fail -n 999
-    Lagrange:
-        python3 sim_naive.py -sf -m lagrange -of scratch -g 0.95 -n 95
-        python3 sim_naive.py -sf -m lagrange -of scratch -dt TF -g 0.95 -n 95
-    test: python3 sim_naive.py -w -sf -of scratch -wi 100 -mu 100 -cp 40
+To Run
+        python sim_naive.py -w -sf -a -g 0.9 -mu 600000 -cp 300000 -ut 20 -n anneal
 """
 
 import os
